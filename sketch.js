@@ -31,7 +31,7 @@ function setup() {
     "Choose Image",
     "<input accept='.png, .jpg, .jpeg' type='file' id='upload' onchange='handleFile()'/>"
   );
-  settings.addDropDown("Sizes", [1, 2, 3, 4, 5], restart);
+  settings.addDropDown("Sizes", [5, 4, 3, 2, 1], restart);
   settings.addDropDown("Output", ["Bindis", "Sizes"], restart);
   settings.addBoolean("Fill", 1, restart);
   settings.addButton("Export", exportA4);
